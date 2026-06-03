@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+faiss-cpu
+tqdm
+pandas
+matplotlib
+scipy

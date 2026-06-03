@@ -1,0 +1,46 @@
+Experiment: AmsterTime sorting checkpoint
+Date: 2026-06-02
+
+Codebase:
+gmberton/auto_VPR
+
+Dataset:
+AmsterTime
+
+Model:
+CosPlace
+
+Backbone:
+ResNet18
+
+Descriptor dimension:
+512
+
+Device:
+CPU
+
+Image size:
+320 x 320
+
+Baseline result:
+R@1  = 33.6
+R@5  = 53.1
+R@10 = 60.9
+
+Descriptor shapes:
+Query descriptors:    (1231, 512)
+Database descriptors: (1231, 512)
+Similarity matrix:    (1231, 1231)
+
+Sorting checkpoint:
+The raw descriptor-derived similarity matrix is not sorted by retrieval score.
+Its columns follow database image order.
+
+Observed check:
+First row raw scores included later values larger than the first value.
+RS without sorting: 0.99499552
+RS after sorting:   0.18913179
+
+Conclusion:
+For all future uncertainty calculations, apply sort_scores_desc(sim_matrix)
+before computing RS, SD, and SU.
