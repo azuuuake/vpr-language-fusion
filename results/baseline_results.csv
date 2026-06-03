@@ -1,0 +1,2 @@
+dataset,method,backbone,descriptors_dim,R@1,R@5,R@10,device,image_size,notes
+amstertime,CosPlace,ResNet18,512,33.6,53.1,60.9,CPU,320x320,reference baseline - not primary backbone for paper
