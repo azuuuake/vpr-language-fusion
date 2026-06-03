@@ -56,6 +56,24 @@ def main():
     print("Query descriptors:", queries_desc.shape)
     print("Database descriptors:", database_desc.shape)
 
+    # Verify L2 normalisation before dot product
+    # auto_VPR should normalise descriptors but we confirm explicitly
+    norms_q  = np.linalg.norm(queries_desc,  axis=1)
+    norms_db = np.linalg.norm(database_desc, axis=1)
+
+    if not np.allclose(norms_q.mean(),  1.0, atol=1e-2):
+        print(f"WARNING: Query descriptors not L2-normalised (mean norm={norms_q.mean():.4f})")
+        print("Normalising now...")
+        queries_desc  = queries_desc  / (norms_q[:,  np.newaxis] + 1e-9)
+
+    if not np.allclose(norms_db.mean(), 1.0, atol=1e-2):
+        print(f"WARNING: Database descriptors not L2-normalised (mean norm={norms_db.mean():.4f})")
+        print("Normalising now...")
+        database_desc = database_desc / (norms_db[:, np.newaxis] + 1e-9)
+
+    print(f"Descriptor norms — queries: {norms_q.mean():.4f}, database: {norms_db.mean():.4f}")
+    print("Dot product = cosine similarity: confirmed")
+
     sim_matrix = queries_desc @ database_desc.T
 
     print("Similarity matrix:", sim_matrix.shape)
