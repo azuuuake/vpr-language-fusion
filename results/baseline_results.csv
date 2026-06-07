@@ -2,4 +2,5 @@ dataset,method,backbone,descriptors_dim,R@1,R@5,R@10,device,image_size,notes
 amstertime,CosPlace,ResNet18,512,33.6,53.1,60.9,CPU,320x320,Reference only
 amstertime,EigenPlaces,ResNet50,2048,43.4,63.4,70.2,CPU,320x320,Baseline B1 — official 4TU zip + gmberton synthetic UTM labels. 320x320 config consistent across all methods.
 amstertime,Fixed-Fusion-alpha0.5,EigenPlaces+BGE-large,2048+1024,43.6,65.8,73.4,CPU,320x320,Baseline B2 — manual fixed fusion alpha=0.5. EigenPlaces sim + BGE-large lang sim. LaVPR AmsterTime descriptions.
-msls_val,EigenPlaces,ResNet50,2048,84.9,90.9,92.8,GPU,320x320,Baseline B1 — MSLS-val 740 LaVPR queries, 18871 database images, EigenPlaces visual-only
+msls_val,EigenPlaces,ResNet50,2048,84.9,90.9,92.8,GPU,320x320,Baseline B1 — MSLS-val 740 LaVPR queries, 18871 database images, EigenPlaces visual-only.
+msls_val,Fixed-Fusion-alpha0.5,EigenPlaces+BGE-large,2048+1024,84.5,91.5,93.2,GPU,320x320,Baseline B2 — manual fixed fusion alpha=0.5. EigenPlaces sim + BGE-large lang sim. LaVPR MSLS-val descriptions.
