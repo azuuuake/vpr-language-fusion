@@ -1,0 +1,51 @@
+Experiment: AmsterTime B1 sorting checkpoint
+Date: 2026-06-06
+
+Codebase:
+gmberton/auto_VPR
+
+Dataset:
+AmsterTime
+
+Dataset source:
+Official 4TU zip, manually downloaded and formatted using gmberton-style synthetic UTM labels
+
+Model:
+EigenPlaces
+
+Backbone:
+ResNet50
+
+Descriptor dimension:
+2048
+
+Device:
+CPU
+
+Image size:
+320 x 320
+
+Baseline result:
+R@1  = 43.4
+R@5  = 63.4
+R@10 = 70.2
+
+Dataset sanity check:
+Database images: 1231
+Query images:    1231
+Bad pairs:       0
+Minimum distance between consecutive synthetic locations: 1000.0
+Ground-truth format: synthetic UTM labels encoding AmsterTime index-pair matching
+
+Sorting checkpoint:
+The raw descriptor-derived similarity matrix should not be assumed to be sorted by retrieval score.
+Its columns follow database image order unless explicitly sorted.
+
+Conclusion:
+For all future uncertainty calculations, apply sort_scores_desc(sim_matrix)
+before computing RS, SD, and SU.
+
+Experimental setup note:
+All methods are evaluated at 320 x 320 resolution using the auto_VPR framework.
+The EigenPlaces B1 baseline is R@1 = 43.4 on AmsterTime under this configuration.
+The EigenPlaces paper reports R@1 = 48.9 at a higher resolution.
