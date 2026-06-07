@@ -1,3 +1,3 @@
 dataset,method,backbone,descriptors_dim,R@1,R@5,R@10,device,image_size,notes
-amstertime,CosPlace,ResNet18,512,33.6,53.1,60.9,CPU,320x320,reference baseline - not primary backbone for paper
-amstertime,EigenPlaces,ResNet50,2048,44.8,66.0,71.3,CPU,320x320,Kaggle AmsterTime reformatted with index-based UTM labels
+amstertime,CosPlace,ResNet18,512,33.6,53.1,60.9,CPU,320x320,Reference only
+amstertime,EigenPlaces,ResNet50,2048,43.4,63.4,70.2,CPU,320x320,Baseline B1 — official 4TU zip + gmberton synthetic UTM labels. 320x320 config consistent across all methods.
