@@ -1,8 +1,11 @@
 numpy
+pandas
+scipy
+matplotlib
+tqdm
+scikit-learn
+sentence-transformers
 torch
 torchvision
 faiss-cpu
-tqdm
-pandas
-matplotlib
-scipy
+Pillow
