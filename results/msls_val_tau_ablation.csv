@@ -1,0 +1,4 @@
+dataset,tau,top_k,lang_threshold,mean_alpha,std_alpha,language_active,language_suppressed,R@1,R@5,R@10
+msls_val,0.5,10,0.05,0.893,0.241,205,535,85.135,91.081,92.838
+msls_val,1.0,10,0.05,0.885,0.218,205,535,85.135,91.081,92.838
+msls_val,2.0,10,0.05,0.875,0.212,205,535,85.000,91.081,92.838
