@@ -158,7 +158,6 @@ vpr-language-fusion/
 │
 ├── scripts/
 │   ├── download_amstertime.sh
-│   ├── run_amstertime_cosplace.sh
 │   ├── check_similarity_sorting.py
 │   ├── session_init.py
 │   ├── run_b1_baseline.py
