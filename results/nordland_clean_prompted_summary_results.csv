@@ -1,0 +1,2 @@
+dataset,B1_R@1,B1_R@5,B1_R@10,Prompted_B2_R@1,Prompted_B2_R@5,Prompted_B2_R@10,Prompted_Gated_top10_R@1,Prompted_Gated_top10_R@5,Prompted_Gated_top10_R@10,Prompted_Gated_full_R@1,Prompted_Gated_full_R@5,Prompted_Gated_full_R@10,language_active_queries,language_suppressed_queries,mean_alpha,std_alpha,uncertain_queries,B1_uncertain_R@1,Prompted_B2_uncertain_R@1,Prompted_Gated_uncertain_R@1
+nordland_clean_prompted,52.75,76.25,87.75,45.5,76.75,87.75,51.5,78.0,87.75,50.75,74.75,84.0,154,246,0.8155033822645297,0.2693794750920365,120,32.5,25.0,30.0
