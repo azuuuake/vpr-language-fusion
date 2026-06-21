@@ -1,6 +1,6 @@
 dataset,method,backbone,descriptors_dim,R@1,R@5,R@10,device,image_size,fusion_type,alpha,tau,notes
 amstertime,CosPlace-reference,ResNet18,512,33.6,53.1,60.9,CPU,320x320,visual_only,,,"Reference only — confirms pipeline works. Not primary backbone."
-amstertime,EigenPlaces,ResNet50,2048,43.4,63.4,70.2,CPU,320x320,visual_only,,,"Baseline B1 — official 4TU zip + gmberton synthetic UTM labels. 320x320 configuration consistent across all methods."
+amstertime,EigenPlaces,ResNet50,2048,43.5,63.4,70.2,CPU,320x320,visual_only,,,"Baseline B1 — official 4TU zip + gmberton synthetic UTM labels. 320x320 configuration consistent across all methods."
 amstertime,Fixed-Fusion,EigenPlaces+BGE-large,2048+1024,43.6,65.8,73.4,CPU,320x320,fixed,0.5,,"Baseline B2 — manual fixed fusion alpha=0.5. EigenPlaces visual similarity plus BGE-large language similarity using LaVPR AmsterTime descriptions."
 amstertime,Confidence-Gated-Top10,EigenPlaces+BGE-large+SU,2048+1024,43.2,63.8,70.2,CPU,320x320,confidence_gated_top10,dynamic,1.0,"Primary method result — SU-based confidence-gated top-10 reranking with language threshold=0.05. Language active for 401/1231 queries. Paired bootstrap: -3 queries vs B1, 95% CI [-1.38, +0.89pp], not statistically meaningful."
 amstertime,Confidence-Gated-Full,EigenPlaces+BGE-large+SU,2048+1024,43.5,63.8,70.5,CPU,320x320,confidence_gated_full,dynamic,1.0,"Full-database fusion variant — SU-based confidence-gated fusion with tau=1.0 and language threshold=0.05. Language active for 401/1231 queries. Exactly matches B1 R@1 query count."
