@@ -26,7 +26,7 @@ Image size:
 320 x 320
 
 Baseline result:
-R@1  = 43.4
+R@1  = 43.5
 R@5  = 63.4
 R@10 = 70.2
 
@@ -47,5 +47,5 @@ before computing RS, SD, and SU.
 
 Experimental setup note:
 All methods are evaluated at 320 x 320 resolution using the auto_VPR framework.
-The EigenPlaces B1 baseline is R@1 = 43.4 on AmsterTime under this configuration.
+The final EigenPlaces B1 baseline is R@1 = 43.5 on AmsterTime under this configuration, based on 535/1231 correct top-1 retrievals.
 The EigenPlaces paper reports R@1 = 48.9 at a higher resolution.
