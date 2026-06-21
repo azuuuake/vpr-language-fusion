@@ -9,7 +9,7 @@ Usage:
     python scripts/run_b1_baseline.py --dataset nordland_clean
 
 Expected R@1 / R@5 / R@10:
-    amstertime:      43.4 / 63.4 / 70.2
+    amstertime:      43.5 / 63.4 / 70.2
     msls_val:        84.9 / 90.9 / 92.8
     nordland_clean:  52.8 / 76.2 / 87.8
 """
@@ -24,7 +24,7 @@ DATASETS = {
         "database": "/content/VPR-datasets-downloader/datasets/amstertime/images/test/database",
         "queries": "/content/VPR-datasets-downloader/datasets/amstertime/images/test/queries",
         "log_dir": "amstertime_eigenplaces_b1",
-        "expected": "43.4 / 63.4 / 70.2",
+        "expected": "43.5 / 63.4 / 70.2",
     },
     "msls_val": {
         "database": "/content/VPR-datasets-downloader/datasets/msls_val/images/test/database",
