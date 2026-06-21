@@ -18,7 +18,7 @@ INPUT CONVENTION — READ BEFORE USE
         ...
         sim_scores[:, K-1] = K-th best                   (s_K)
 
-⚠️  CRITICAL: Passing unsorted scores produces silently wrong results.
+    CRITICAL: Passing unsorted scores produces silently wrong results.
     auto_VPR / EigenPlaces may or may not return sorted matrices.
     Always call sort_scores_desc(sim_scores) first if you are unsure.
     Verification test:  RS([[0.9, 0.6, 0.5, 0.4, 0.3]]) should equal
