@@ -33,10 +33,10 @@ DATASETS = {
         "expected": "84.9 / 90.9 / 92.8",
     },
     "nordland_clean": {
-        "database": "/content/VPR-datasets-downloader/datasets/nordland_clean/images/test/database",
-        "queries": "/content/VPR-datasets-downloader/datasets/nordland_clean/images/test/queries",
-        "log_dir": "nordland_clean_eigenplaces_b1",
-        "expected": "52.8 / 76.2 / 87.8",
+    "database": "/content/drive/MyDrive/vpr_research/nordland_clean_subset/images/test/database",
+    "queries": "/content/drive/MyDrive/vpr_research/nordland_clean_subset/images/test/queries",
+    "log_dir": "nordland_clean_eigenplaces_b1",
+    "expected": "52.8 / 76.2 / 87.8",
     },
 }
 
