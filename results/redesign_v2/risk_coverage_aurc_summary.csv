@@ -1,0 +1,10 @@
+Dataset,Split,Uncertainty_axis,V2_AURC,rho,candidate_pool,uncertainty_k
+AmsterTime,full,LU,48.883531815795834,3.0,10,10
+AmsterTime,full,SU,30.711312585555774,3.0,10,10
+AmsterTime,full,joint_variance,35.5187429286363,3.0,10,10
+MSLS-val held-out,heldout,LU,12.329840572322171,3.0,10,10
+MSLS-val held-out,heldout,SU,4.139065312519202,3.0,10,10
+MSLS-val held-out,heldout,joint_variance,5.920489935525607,3.0,10,10
+Nordland-clean,full,LU,47.4954365079365,3.0,10,10
+Nordland-clean,full,SU,33.690376984126985,3.0,10,10
+Nordland-clean,full,joint_variance,38.88224206349206,3.0,10,10

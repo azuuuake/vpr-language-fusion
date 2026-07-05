@@ -1,0 +1,28 @@
+Dataset,Split,Metric,Comparison,Difference_pp,CI95_low,CI95_high,Significant,rho,uncertainty_k,candidate_pool,n_boot
+AmsterTime,full,R@1,V2 calibrated precision - B1 visual-only,0.8935824532900094,-0.649878147847277,2.4370430544272956,False,3.0,10,10,5000
+AmsterTime,full,R@1,V2 calibrated precision - B2 fixed fusion,0.7311129163281915,-0.5686433793663681,2.0308692120227456,False,3.0,10,10,5000
+AmsterTime,full,R@1,V2 calibrated precision - V1 sigmoid+threshold,1.1372867587327362,-0.2437043054427268,2.518277822908205,False,3.0,10,10,5000
+AmsterTime,full,R@5,V2 calibrated precision - B1 visual-only,2.1933387489845635,1.1372867587327473,3.249390739236402,True,3.0,10,10,5000
+AmsterTime,full,R@5,V2 calibrated precision - B2 fixed fusion,-0.16246953696181787,-1.7059301380991099,1.380991064175463,False,3.0,10,10,5000
+AmsterTime,full,R@5,V2 calibrated precision - V1 sigmoid+threshold,1.8683996750609277,0.9748172217709183,2.843216896831846,True,3.0,10,10,5000
+AmsterTime,full,R@10,V2 calibrated precision - B1 visual-only,0.0,0.0,0.0,False,3.0,10,10,5000
+AmsterTime,full,R@10,V2 calibrated precision - B2 fixed fusion,-3.249390739236402,-4.955320877335501,-1.7059301380990988,True,3.0,10,10,5000
+AmsterTime,full,R@10,V2 calibrated precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@1,V2 calibrated precision - B1 visual-only,0.579150579150578,-1.158301158301156,2.1235521235521304,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@1,V2 calibrated precision - B2 fixed fusion,0.579150579150578,-0.7722007722007707,1.9305019305019377,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@1,V2 calibrated precision - V1 sigmoid+threshold,-0.19305019305019266,-1.9305019305019266,1.3513513513513598,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@5,V2 calibrated precision - B1 visual-only,0.7722007722007707,-0.38610038610038533,1.9305019305019377,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@5,V2 calibrated precision - B2 fixed fusion,-0.19305019305019266,-1.3513513513513487,0.9652509652509633,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@5,V2 calibrated precision - V1 sigmoid+threshold,0.19305019305019266,-0.7722007722007707,1.158301158301167,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@10,V2 calibrated precision - B1 visual-only,0.0,0.0,0.0,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@10,V2 calibrated precision - B2 fixed fusion,-0.579150579150578,-1.5444015444015524,0.38610038610038533,False,3.0,10,10,5000
+MSLS-val held-out,heldout,R@10,V2 calibrated precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,3.0,10,10,5000
+Nordland-clean,full,R@1,V2 calibrated precision - B1 visual-only,-2.2499999999999964,-5.500000000000005,0.7500000000000062,False,3.0,10,10,5000
+Nordland-clean,full,R@1,V2 calibrated precision - B2 fixed fusion,4.749999999999998,2.0000000000000018,7.749999999999996,True,3.0,10,10,5000
+Nordland-clean,full,R@1,V2 calibrated precision - V1 sigmoid+threshold,-2.500000000000002,-4.749999999999998,-0.5000000000000004,True,3.0,10,10,5000
+Nordland-clean,full,R@5,V2 calibrated precision - B1 visual-only,2.500000000000002,0.0,5.249999999999999,False,3.0,10,10,5000
+Nordland-clean,full,R@5,V2 calibrated precision - B2 fixed fusion,3.749999999999998,0.7500000000000062,6.75,True,3.0,10,10,5000
+Nordland-clean,full,R@5,V2 calibrated precision - V1 sigmoid+threshold,2.749999999999997,0.7500000000000062,4.75000000000001,True,3.0,10,10,5000
+Nordland-clean,full,R@10,V2 calibrated precision - B1 visual-only,0.0,0.0,0.0,False,3.0,10,10,5000
+Nordland-clean,full,R@10,V2 calibrated precision - B2 fixed fusion,3.9999999999999925,1.0000000000000009,7.000000000000006,True,3.0,10,10,5000
+Nordland-clean,full,R@10,V2 calibrated precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,3.0,10,10,5000

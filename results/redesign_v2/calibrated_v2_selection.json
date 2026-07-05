@@ -1,0 +1,17 @@
+{
+  "selection_source": "MSLS-val calibration split only",
+  "selection_rule": "max R@1, then max R@5, then max R@10, then smaller candidate_pool, then smaller rho",
+  "seed": 42,
+  "calibration_fraction": 0.3,
+  "n_total_msls_queries": 740,
+  "n_calibration_queries": 222,
+  "n_heldout_queries": 518,
+  "uncertainty_k": 10,
+  "selected_rho": 3.0,
+  "selected_candidate_pool": 100,
+  "calibration_R@1": 85.58558558558559,
+  "calibration_R@5": 91.44144144144144,
+  "calibration_R@10": 92.7927927927928,
+  "calibration_count@1": 190,
+  "calibration_mean_alpha": 0.7197359204292297
+}

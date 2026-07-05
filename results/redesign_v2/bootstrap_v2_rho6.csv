@@ -1,0 +1,28 @@
+Dataset,Metric,Comparison,Difference_pp,CI95_low,CI95_high,Significant,rho,n_boot
+AmsterTime,R@1,V2 conservative precision - B1 visual-only,1.2997562956945596,0.0,2.5995125913891135,False,6.0,5000
+AmsterTime,R@1,V2 conservative precision - B2 fixed fusion,1.1372867587327418,-0.40617384240455023,2.7619821283509314,False,6.0,5000
+AmsterTime,R@1,V2 conservative precision - V1 sigmoid+threshold,1.5434606011372864,0.4061738424045447,2.7619821283509314,True,6.0,5000
+AmsterTime,R@5,V2 conservative precision - B1 visual-only,1.543460601137281,0.6498781478472826,2.4390739236392944,True,6.0,5000
+AmsterTime,R@5,V2 conservative precision - B2 fixed fusion,-0.8123476848091005,-2.4370430544273014,0.8123476848090894,False,6.0,5000
+AmsterTime,R@5,V2 conservative precision - V1 sigmoid+threshold,1.2185215272136452,0.32493907392363575,2.1933387489845635,True,6.0,5000
+AmsterTime,R@10,V2 conservative precision - B1 visual-only,0.0,0.0,0.0,False,6.0,5000
+AmsterTime,R@10,V2 conservative precision - B2 fixed fusion,-3.249390739236402,-4.955320877335501,-1.7059301380990988,True,6.0,5000
+AmsterTime,R@10,V2 conservative precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,6.0,5000
+MSLS-val,R@1,V2 conservative precision - B1 visual-only,0.5405405405405461,-0.6756756756756688,1.756756756756761,False,6.0,5000
+MSLS-val,R@1,V2 conservative precision - B2 fixed fusion,0.9459459459459474,-0.2702702702702675,2.297297297297296,False,6.0,5000
+MSLS-val,R@1,V2 conservative precision - V1 sigmoid+threshold,0.2702702702702786,-0.9459459459459474,1.4864864864864935,False,6.0,5000
+MSLS-val,R@5,V2 conservative precision - B1 visual-only,0.540540540540535,0.0,1.216216216216215,False,6.0,5000
+MSLS-val,R@5,V2 conservative precision - B2 fixed fusion,0.0,-1.0810810810810811,1.0810810810810811,False,6.0,5000
+MSLS-val,R@5,V2 conservative precision - V1 sigmoid+threshold,0.40540540540540126,-0.13513513513513375,1.0810810810810811,False,6.0,5000
+MSLS-val,R@10,V2 conservative precision - B1 visual-only,0.0,0.0,0.0,False,6.0,5000
+MSLS-val,R@10,V2 conservative precision - B2 fixed fusion,-0.40540540540541237,-1.216216216216226,0.40540540540541237,False,6.0,5000
+MSLS-val,R@10,V2 conservative precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,6.0,5000
+Nordland-clean,R@1,V2 conservative precision - B1 visual-only,-0.7499999999999951,-3.2500000000000084,1.7500000000000016,False,6.0,5000
+Nordland-clean,R@1,V2 conservative precision - B2 fixed fusion,6.25,2.9999999999999973,9.500000000000004,True,6.0,5000
+Nordland-clean,R@1,V2 conservative precision - V1 sigmoid+threshold,-1.0000000000000009,-3.0000000000000027,1.0000000000000009,False,6.0,5000
+Nordland-clean,R@5,V2 conservative precision - B1 visual-only,0.2500000000000058,-1.750000000000007,2.2499999999999964,False,6.0,5000
+Nordland-clean,R@5,V2 conservative precision - B2 fixed fusion,1.5000000000000013,-1.5000000000000013,4.249999999999998,False,6.0,5000
+Nordland-clean,R@5,V2 conservative precision - V1 sigmoid+threshold,0.5000000000000004,-0.7500000000000062,2.0000000000000018,False,6.0,5000
+Nordland-clean,R@10,V2 conservative precision - B1 visual-only,0.0,0.0,0.0,False,6.0,5000
+Nordland-clean,R@10,V2 conservative precision - B2 fixed fusion,3.9999999999999925,1.0000000000000009,7.000000000000006,True,6.0,5000
+Nordland-clean,R@10,V2 conservative precision - V1 sigmoid+threshold,0.0,0.0,0.0,False,6.0,5000

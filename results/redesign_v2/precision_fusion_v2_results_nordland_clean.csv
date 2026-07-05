@@ -1,0 +1,5 @@
+Dataset,Method,R@1,R@5,R@10,count@1,count@5,count@10,n_queries,fixed_alpha,old_tau,old_lang_threshold,language_active,mean_alpha,std_alpha,rho,candidate_pool,uncertainty_k,mean_SU,std_SU,mean_LU,std_LU
+Nordland-clean,B1 visual-only,52.75,76.25,87.75,211,305,351,400,,,,,,,,,,,,,
+Nordland-clean,B2 fixed fusion,45.75,75.0,83.75,183,300,335,400,0.5,,,,,,,,,,,,
+Nordland-clean,V1 sigmoid+threshold,53.0,76.0,87.75,212,304,351,400,,1.0,0.05,165.0,0.7936497592681991,0.28357061044959697,,,,,,,
+Nordland-clean,V2 conservative precision,52.0,75.75,87.75,208,303,351,400,,,,400.0,0.8165925741195679,0.14721575379371643,6.0,20.0,10.0,0.8055589199066162,0.10540267080068588,0.895315408706665,0.05791955813765526
