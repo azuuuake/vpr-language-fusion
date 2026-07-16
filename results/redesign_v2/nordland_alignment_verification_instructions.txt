@@ -1,0 +1,23 @@
+
+Nordland Alignment Verification Instructions
+
+Task:
+Please independently check whether each query image and positive database image appear to show the same physical place/location.
+
+Open the query_image_path and positive_db_image_path for each row, then fill only these columns:
+
+1. second_verifier_same_place
+Use only:
+YES
+NO
+UNCLEAR
+
+2. second_verifier_confidence_1_to_3
+1 = low confidence
+2 = medium confidence
+3 = high confidence
+
+3. second_verifier_notes
+Brief note if needed.
+
+Please do not change case_id, query_id, positive_db_id, or any image path columns.

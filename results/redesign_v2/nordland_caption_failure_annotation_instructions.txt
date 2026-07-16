@@ -1,0 +1,30 @@
+
+Nordland Caption Failure Annotation Instructions
+
+Task:
+You are reviewing cases where the language/caption-based retrieval signal selected the wrong location.
+For each case, assign one failure type.
+
+Allowed labels:
+
+A_generic_non_place_discriminative
+Use this when the captions are plausible scene descriptions, but they are too generic to distinguish the true place from the wrong retrieved place.
+Example: both descriptions mention train tracks, snow, mountains, forest, bridge, road, etc., without unique place-specific details.
+
+B_caption_artifact_or_degenerate
+Use this when the caption appears to be affected by a visual/captioning artifact, such as black screen, white text, unreadable frame, blank frame, or otherwise degenerate/uninformative caption.
+
+C_other_or_unclear
+Use this when neither A nor B clearly applies, or the case is ambiguous.
+
+Confidence:
+1 = low confidence
+2 = medium confidence
+3 = high confidence
+
+Please fill only:
+- second_annotator_failure_type
+- second_annotator_confidence_1_to_3
+- second_annotator_notes
+
+Do not change case_id or other columns.
