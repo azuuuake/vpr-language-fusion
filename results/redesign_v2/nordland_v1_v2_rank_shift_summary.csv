@@ -1,0 +1,3 @@
+Subset,n_queries,v2_rank2_count,v2_rank3_count,v2_rank4_5_count,v2_rank2_5_count,v2_rank6_10_count,v2_outside_top10_count,v2_rank2_5_pct,v2_outside_top10_pct,mean_rank_shift_v2_minus_v1,median_rank_shift_v2_minus_v1,mean_alpha_v1,mean_alpha_v2,mean_SU,mean_LU
+V1_R@1_correct_but_V2_R@1_wrong,15,10,5,0,15,0,0,100.0,0.0,1.3333333333333333,1.0,0.8383033961097512,0.6091448167959849,0.8590352495511373,0.8744440038998922
+V2_R@1_correct_but_V1_R@1_wrong,5,0,0,0,0,0,0,0.0,0.0,-1.2,-1.0,0.7052788389453747,0.4760967314243317,0.8845065355300903,0.8442119002342224

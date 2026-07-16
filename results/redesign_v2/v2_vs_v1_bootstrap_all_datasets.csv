@@ -1,0 +1,28 @@
+Dataset,Metric,Comparison,Difference_pp,CI_low,CI_high,Significant_95CI_excludes_0,n_queries,n_boot,rho,candidate_pool,uncertainty_k,v1_tau,v1_lang_threshold,v1_top_k
+AmsterTime,R@1,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,1.1372867587327362,-0.24370430409908295,2.518277883529663,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@5,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,1.8683996750609277,0.9748172163963318,2.843216896057129,True,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@10,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,0.0,0.0,0.0,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.8935824532900094,-0.6498781442642212,2.4370429515838623,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,2.1933387489845635,1.1372867822647095,3.2493908405303955,True,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@1,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,-0.2437043054427268,-1.3809911012649536,0.8935824632644653,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@5,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.32493907392363575,-0.4874086081981659,1.2185214757919312,False,1231,5000,3.0,10,10,1.0,0.05,10
+AmsterTime,R@10,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,1231,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@1,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,-0.19305019305019266,-1.930501937866211,1.3513513803482056,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@5,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,0.19305019305019266,-0.7722007632255554,1.1583011150360107,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@10,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,0.0,0.0,0.0,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.579150579150578,-1.1583011150360107,2.123552083969116,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.7722007722007707,-0.3861003816127777,1.930501937866211,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@1,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.7722007722007707,-0.19305019080638885,1.930501937866211,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@5,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.579150579150578,0.0,1.3513513803482056,False,518,5000,3.0,10,10,1.0,0.05,10
+MSLS-val held-out,R@10,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,518,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@1,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,-2.500000000000002,-4.75,-0.5,True,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@5,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,2.749999999999997,0.75,4.75,True,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@10,V2_precision_weighted_pool10 - V1_sigmoid_threshold_pool10,0.0,0.0,0.0,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,-2.2499999999999964,-5.5,0.75,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,2.500000000000002,0.0,5.25,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@1,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.2500000000000058,-2.25,2.75,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@5,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,-0.24999999999999467,-2.25,1.75,False,400,5000,3.0,10,10,1.0,0.05,10
+Nordland-clean,R@10,V1_sigmoid_threshold_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,400,5000,3.0,10,10,1.0,0.05,10

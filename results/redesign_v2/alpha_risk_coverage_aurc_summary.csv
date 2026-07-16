@@ -1,0 +1,13 @@
+Dataset,Split,Axis,V2_AURC,rho,candidate_pool,uncertainty_k
+AmsterTime,full,SU,30.711312585555774,3.0,10,10
+AmsterTime,full,LU,48.883531815795834,3.0,10,10
+AmsterTime,full,joint_variance_unweighted,35.5187429286363,3.0,10,10
+AmsterTime,full,language_weight_1_minus_alpha,36.48556847287453,3.0,10,10
+MSLS-val held-out,heldout,SU,4.139065312519202,3.0,10,10
+MSLS-val held-out,heldout,LU,12.329840572322171,3.0,10,10
+MSLS-val held-out,heldout,joint_variance_unweighted,5.920489935525607,3.0,10,10
+MSLS-val held-out,heldout,language_weight_1_minus_alpha,5.873622123603954,3.0,10,10
+Nordland-clean,full,SU,33.690376984126985,3.0,10,10
+Nordland-clean,full,LU,47.4954365079365,3.0,10,10
+Nordland-clean,full,joint_variance_unweighted,38.88224206349206,3.0,10,10
+Nordland-clean,full,language_weight_1_minus_alpha,36.27093253968253,3.0,10,10

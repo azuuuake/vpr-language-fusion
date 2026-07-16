@@ -1,0 +1,37 @@
+Dataset,Metric,Comparison,Difference_pp,CI_low,CI_high,Significant_95CI_excludes_0,n_queries,n_boot,rho,candidate_pool,uncertainty_k
+AmsterTime,R@1,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.32493907392363575,-0.6498781442642212,1.2997562885284424,False,1231,5000,3.0,10,10
+AmsterTime,R@5,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,-0.6498781478472826,-1.3809911012649536,0.08123476803302765,False,1231,5000,3.0,10,10
+AmsterTime,R@10,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.0,0.0,0.0,False,1231,5000,3.0,10,10
+AmsterTime,R@1,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,1.2185215272136452,-0.24370430409908295,2.6807472705841064,False,1231,5000,3.0,10,10
+AmsterTime,R@5,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,1.543460601137281,0.5686433911323547,2.518277883529663,True,1231,5000,3.0,10,10
+AmsterTime,R@10,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,1231,5000,3.0,10,10
+AmsterTime,R@1,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,1.0560519902518273,-0.40617385506629944,2.518277883529663,False,1231,5000,3.0,10,10
+AmsterTime,R@5,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,-0.8123476848091005,-2.3558082580566406,0.8123477101325989,False,1231,5000,3.0,10,10
+AmsterTime,R@10,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,-3.249390739236402,-4.955320835113525,-1.7059301137924194,True,1231,5000,3.0,10,10
+AmsterTime,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.8935824532900094,-0.6498781442642212,2.4370429515838623,False,1231,5000,3.0,10,10
+AmsterTime,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,2.1933387489845635,1.1372867822647095,3.2493908405303955,True,1231,5000,3.0,10,10
+AmsterTime,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,1231,5000,3.0,10,10
+MSLS-val held-out,R@1,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.38610038610038533,-0.5791505575180054,1.5444015264511108,False,518,5000,3.0,10,10
+MSLS-val held-out,R@5,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,-0.579150579150578,-1.5444015264511108,0.3861003816127777,False,518,5000,3.0,10,10
+MSLS-val held-out,R@10,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.0,0.0,0.0,False,518,5000,3.0,10,10
+MSLS-val held-out,R@1,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,0.9652509652509633,-0.3861003816127777,2.3166022300720215,False,518,5000,3.0,10,10
+MSLS-val held-out,R@5,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,0.19305019305019266,-0.3861003816127777,0.9652509689331055,False,518,5000,3.0,10,10
+MSLS-val held-out,R@10,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,518,5000,3.0,10,10
+MSLS-val held-out,R@1,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,0.9652509652509633,-0.5791505575180054,2.702702760696411,False,518,5000,3.0,10,10
+MSLS-val held-out,R@5,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,-0.7722007722007707,-2.123552083969116,0.5791505575180054,False,518,5000,3.0,10,10
+MSLS-val held-out,R@10,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,-0.579150579150578,-1.5444015264511108,0.3861003816127777,False,518,5000,3.0,10,10
+MSLS-val held-out,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.579150579150578,-1.1583011150360107,2.123552083969116,False,518,5000,3.0,10,10
+MSLS-val held-out,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.7722007722007707,-0.3861003816127777,1.930501937866211,False,518,5000,3.0,10,10
+MSLS-val held-out,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,518,5000,3.0,10,10
+Nordland-clean,R@1,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.5000000000000004,-1.5,2.5,False,400,5000,3.0,10,10
+Nordland-clean,R@5,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,-1.0000000000000009,-3.0,1.0,False,400,5000,3.0,10,10
+Nordland-clean,R@10,LogReg_learned_reranker_pool10 - V2_precision_weighted_pool10,0.0,0.0,0.0,False,400,5000,3.0,10,10
+Nordland-clean,R@1,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,-1.749999999999996,-4.75,1.0,False,400,5000,3.0,10,10
+Nordland-clean,R@5,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,1.5000000000000013,-1.0,4.0,False,400,5000,3.0,10,10
+Nordland-clean,R@10,LogReg_learned_reranker_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,400,5000,3.0,10,10
+Nordland-clean,R@1,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,5.249999999999999,2.25,8.5,True,400,5000,3.0,10,10
+Nordland-clean,R@5,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,2.749999999999997,-0.25,5.75,False,400,5000,3.0,10,10
+Nordland-clean,R@10,LogReg_learned_reranker_pool10 - B2_fixed_0.5_full_db,3.9999999999999925,1.0,7.0,True,400,5000,3.0,10,10
+Nordland-clean,R@1,V2_precision_weighted_pool10 - B1_visual_only_full_db,-2.2499999999999964,-5.5,0.75,False,400,5000,3.0,10,10
+Nordland-clean,R@5,V2_precision_weighted_pool10 - B1_visual_only_full_db,2.500000000000002,0.0,5.25,False,400,5000,3.0,10,10
+Nordland-clean,R@10,V2_precision_weighted_pool10 - B1_visual_only_full_db,0.0,0.0,0.0,False,400,5000,3.0,10,10

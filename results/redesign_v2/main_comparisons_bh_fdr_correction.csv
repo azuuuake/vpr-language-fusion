@@ -1,0 +1,37 @@
+Dataset,Metric,Comparison,Difference_pp,CI_low,CI_high,bootstrap_p_two_sided,Significant_by_95CI_uncorrected,n_queries,n_boot,rho,candidate_pool,uncertainty_k,BH_FDR_q_value,Significant_after_BH_FDR_0.05,n_tests_in_family
+AmsterTime,R@1,V2_precision_weighted - B1_visual_only,0.8935824532900094,-0.6498781442642212,2.4370429515838623,0.2887422515496901,False,1231,5000,3.0,10,10,0.7092981403719256,False,36
+AmsterTime,R@5,V2_precision_weighted - B1_visual_only,2.1933387489845635,1.1372867822647095,3.2493908405303955,0.0003999200159968006,True,1231,5000,3.0,10,10,0.004799040191961607,True,36
+AmsterTime,R@10,V2_precision_weighted - B1_visual_only,0.0,0.0,0.0,1.0,False,1231,5000,3.0,10,10,1.0,False,36
+AmsterTime,R@1,V2_precision_weighted - B2_fixed_0.5,0.7311129163281915,-0.5686433911323547,2.030869245529175,0.2955408918216357,False,1231,5000,3.0,10,10,0.7092981403719256,False,36
+AmsterTime,R@5,V2_precision_weighted - B2_fixed_0.5,-0.16246953696181787,-1.7059301137924194,1.3809911012649536,0.9014197160567886,False,1231,5000,3.0,10,10,1.0,False,36
+AmsterTime,R@10,V2_precision_weighted - B2_fixed_0.5,-3.249390739236402,-4.955320835113525,-1.7059301137924194,0.0003999200159968006,True,1231,5000,3.0,10,10,0.004799040191961607,True,36
+AmsterTime,R@1,V2_precision_weighted - V1_sigmoid_threshold,1.1372867587327362,-0.24370430409908295,2.518277883529663,0.11597680463907219,False,1231,5000,3.0,10,10,0.37956045154605444,False,36
+AmsterTime,R@5,V2_precision_weighted - V1_sigmoid_threshold,1.8683996750609277,0.9748172163963318,2.843216896057129,0.0003999200159968006,True,1231,5000,3.0,10,10,0.004799040191961607,True,36
+AmsterTime,R@10,V2_precision_weighted - V1_sigmoid_threshold,0.0,0.0,0.0,1.0,False,1231,5000,3.0,10,10,1.0,False,36
+AmsterTime,R@1,V2_precision_weighted - LogReg_learned_reranker,-0.32493907392363575,-1.2997562885284424,0.6498781442642212,0.5590881823635273,False,1231,5000,3.0,10,10,0.9678791514424386,False,36
+AmsterTime,R@5,V2_precision_weighted - LogReg_learned_reranker,0.6498781478472826,-0.08123476803302765,1.3809911012649536,0.09558088382323535,False,1231,5000,3.0,10,10,0.3440911817636473,False,36
+AmsterTime,R@10,V2_precision_weighted - LogReg_learned_reranker,0.0,0.0,0.0,1.0,False,1231,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@1,V2_precision_weighted - B1_visual_only,0.579150579150578,-1.1583011150360107,2.123552083969116,0.5682863427314537,False,518,5000,3.0,10,10,0.9678791514424386,False,36
+MSLS-val held-out,R@5,V2_precision_weighted - B1_visual_only,0.7722007722007707,-0.3861003816127777,1.930501937866211,0.2523495300939812,False,518,5000,3.0,10,10,0.6988140833371788,False,36
+MSLS-val held-out,R@10,V2_precision_weighted - B1_visual_only,0.0,0.0,0.0,1.0,False,518,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@1,V2_precision_weighted - B2_fixed_0.5,0.579150579150578,-0.7722007632255554,1.930501937866211,0.4803039392121576,False,518,5000,3.0,10,10,0.9100495690335617,False,36
+MSLS-val held-out,R@5,V2_precision_weighted - B2_fixed_0.5,-0.19305019305019266,-1.3513513803482056,0.9652509689331055,0.8634273145370925,False,518,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@10,V2_precision_weighted - B2_fixed_0.5,-0.579150579150578,-1.5444015264511108,0.3861003816127777,0.34273145370925817,False,518,5000,3.0,10,10,0.7257842549137232,False,36
+MSLS-val held-out,R@1,V2_precision_weighted - V1_sigmoid_threshold,-0.19305019305019266,-1.930501937866211,1.3513513803482056,0.9030193961207759,False,518,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@5,V2_precision_weighted - V1_sigmoid_threshold,0.19305019305019266,-0.7722007632255554,1.1583011150360107,0.8538292341531694,False,518,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@10,V2_precision_weighted - V1_sigmoid_threshold,0.0,0.0,0.0,1.0,False,518,5000,3.0,10,10,1.0,False,36
+MSLS-val held-out,R@1,V2_precision_weighted - LogReg_learned_reranker,-0.38610038610038533,-1.5444015264511108,0.5791505575180054,0.5914817036592681,False,518,5000,3.0,10,10,0.9678791514424386,False,36
+MSLS-val held-out,R@5,V2_precision_weighted - LogReg_learned_reranker,0.579150579150578,-0.3861003816127777,1.5444015264511108,0.3343331333733253,False,518,5000,3.0,10,10,0.7257842549137232,False,36
+MSLS-val held-out,R@10,V2_precision_weighted - LogReg_learned_reranker,0.0,0.0,0.0,1.0,False,518,5000,3.0,10,10,1.0,False,36
+Nordland-clean,R@1,V2_precision_weighted - B1_visual_only,-2.2499999999999964,-5.5,0.75,0.1863627274545091,False,400,5000,3.0,10,10,0.5590881823635273,False,36
+Nordland-clean,R@5,V2_precision_weighted - B1_visual_only,2.500000000000002,0.0,5.25,0.07078584283143372,False,400,5000,3.0,10,10,0.28314337132573486,False,36
+Nordland-clean,R@10,V2_precision_weighted - B1_visual_only,0.0,0.0,0.0,1.0,False,400,5000,3.0,10,10,1.0,False,36
+Nordland-clean,R@1,V2_precision_weighted - B2_fixed_0.5,4.749999999999998,2.0,7.75,0.0027994401119776045,True,400,5000,3.0,10,10,0.02519496100779844,True,36
+Nordland-clean,R@5,V2_precision_weighted - B2_fixed_0.5,3.749999999999998,0.75,6.75,0.013197360527894421,True,400,5000,3.0,10,10,0.07918416316736653,False,36
+Nordland-clean,R@10,V2_precision_weighted - B2_fixed_0.5,3.9999999999999925,1.0,7.0,0.015996800639872025,True,400,5000,3.0,10,10,0.08226926043362756,False,36
+Nordland-clean,R@1,V2_precision_weighted - V1_sigmoid_threshold,-2.500000000000002,-4.75,-0.5,0.026394721055788842,True,400,5000,3.0,10,10,0.11877624475104978,False,36
+Nordland-clean,R@5,V2_precision_weighted - V1_sigmoid_threshold,2.749999999999997,0.75,4.75,0.005198960207958408,True,400,5000,3.0,10,10,0.03743251349730054,True,36
+Nordland-clean,R@10,V2_precision_weighted - V1_sigmoid_threshold,0.0,0.0,0.0,1.0,False,400,5000,3.0,10,10,1.0,False,36
+Nordland-clean,R@1,V2_precision_weighted - LogReg_learned_reranker,-0.5000000000000004,-2.5,1.5,0.7058588282343531,False,400,5000,3.0,10,10,1.0,False,36
+Nordland-clean,R@5,V2_precision_weighted - LogReg_learned_reranker,1.0000000000000009,-1.0,3.0,0.381123775244951,False,400,5000,3.0,10,10,0.762247550489902,False,36
+Nordland-clean,R@10,V2_precision_weighted - LogReg_learned_reranker,0.0,0.0,0.0,1.0,False,400,5000,3.0,10,10,1.0,False,36

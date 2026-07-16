@@ -1,0 +1,14 @@
+{
+  "rho": 3.0,
+  "candidate_pool": 10,
+  "uncertainty_k": 10,
+  "train_dataset": "MSLS-val calibration split only",
+  "n_calibration_queries": 222,
+  "n_heldout_queries": 518,
+  "candidate_samples": 2220,
+  "n_features": 16,
+  "positive_candidates": 1062,
+  "negative_candidates": 1158,
+  "positive_rate": 0.4783783783783784,
+  "model": "StandardScaler + LogisticRegression(class_weight='balanced', C=1.0, random_state=42)"
+}
