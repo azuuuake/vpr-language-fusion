@@ -1,0 +1,2 @@
+n_queries,n_database,mean_positives_per_query,std_positives_per_query,min_positives_per_query,median_positives_per_query,max_positives_per_query,queries_with_zero_positives,queries_with_multiple_positives,mean_queries_per_positive_db,min_queries_per_positive_db,max_queries_per_positive_db
+400,400,49.375,4.998437255783052,26,51.0,51,0,400,49.375,26,51
